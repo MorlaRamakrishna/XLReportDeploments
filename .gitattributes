@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
+*.manifest binary
+*.application binary
+*.deploy binary
+*.vsto binary
 * text=auto
