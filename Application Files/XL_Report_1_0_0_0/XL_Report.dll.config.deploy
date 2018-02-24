@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <appSettings>
+    <add key="pipeSeparator" value="|" />
+    <add key="tabSeparator" value="\t" />
+    <add key="Qualifier" value="&quot;" />
+    <add key="AARPT" value="Account Analysis Report" />
+    <!--oauth/token-->
+    <add key="tenantUrl" value="https://prod.nspl.com:8443/" />
+    <!--<add key="tenantUrl" value="https://xlreports-dev.mars.pinadmin.com:8080/" />-->
+    <add key="onelogin" value="login/onelogin" />
+    <add key="LoginUrl" value="oauth/token" />
+    <add key="Auth" value="api/account" />
+    <add key="COAId" value="api/getCoaDetails" />
+    <add key="segmentPeriod" value="api/getGlPeriodStatuses" />
+    <add key="glBalance" value="api/getGlBalances" />
+    <add key="glJournals" value="api/getGlJournals" />
+    <add key="glSubLedgers" value="api/getSubLedgers" />
+    <add key="LedgerSets" value="api/getGlLedgerSetsDetails" />
+    <add key="budget-ver-encumbrance" value="api/getBudgetVerEncumbranceDetails" />
+    <add key="Currencies" value="api/getFndCurrencyDetails" />
+    <add key="logout" value="api/logout" />
+    <add key="getTemplateInfo" value="api/templateListBasedOnReportName" />
+    <add key="glTrialBalanceReportData" value="api/getGlTrialBalance" />
+    <!-- TranslationReport-->
+    <add key="getTranslationTemplates" value="api/templateListBasedOnReportName/GL Translation Report" />
+    <add key="glTranslationReportData" value="api/getGlTranslation" />
+    <!-- FSG Reports-->
+    <add key="createFSGReport" value="api/createFsgReports" />
+    <add key="getAllReports" value="api/GetFsgReports" />
+    <!-- TemplateReport-->
+    <add key="TemplateReport" value="api/GetReportLists" />
+    <add key="TemplateList" value="api/GetTemplateLists" />
+    <add key="TemplateSave" value="api/creatingTemplateList" />
+    <add key="SaveTemplate" value="api/templateCreationFromReportLayout" />
+    <add key="getReportLayoutTemplateData" value="api/listOfTemplates" />
+    <add key="getMandatoryColumns" value="api/getMandatoryColumns" />
+    <add key="getTenantDefaultTemplates" value="api/getTenantDefaultTemplates" />
+    <!-- COA_SEGMENT_LISTING_REPORT-->
+    <add key="SegmentTemplateListing" value="api/templateListBasedOnReportName/COA Segment Listing Report" />
+    <add key="SegmentTemplateResult" value="api/getCoaFlexValuesPost" />
+    <!-- COA_CodeCombination_LISTING_REPORT-->
+    <add key="CodeCombinationTemplateListing" value="api/templateListBasedOnReportName/Code Combinations Listing Report" />
+    <add key="CodeCombinationTemplateResult" value="api/getCodeCombinationDetails" />
+    <!-- ExchangeReport-->
+    <add key="ConvertionTypeApi" value="api/getExchangeConvertionTypesDetails" />
+    <add key="getExchangeReportTemplate" value="api/templateListBasedOnReportName/Gl Exchange Rates Report" />
+    <add key="getExchangeReportResult" value="api/getExchangeRatesDetails" />
+    <!-- Account Analysis -->
+    <add key="getAAReportTemplates" value="api/templateListBasedOnReportName/Account Analysis Report" />
+    <add key="getAACategories" value="api/getJeSourceCategoriesDetails" />
+    <add key="getAAReportResult" value="api/getAccountAnalysisDetails" />
+    <!-- DrillDown Templates-->
+    <add key="getJournalDDTemplate" value="api/templateListBasedOnReportName/Journals Detail Report" />
+    <add key="getSubLedgerDDTemplate" value="api/templateListBasedOnReportName/Subledger Detail Report" />
+    <add key="AccountDesc" value="api/getCoaFlexValues" />
+    <add key="ParentChild" value="api/getCoaFlexValueHierarchies" />
+    <add key="ParentChildData" value="api/getParentChildInfo" />
+    <add key="ParentUltimateChildList" value="api/getParentChild" />
+    <!-- Update Account Details-->
+    <add key="GetAccountDetails" value="api/GetUserAccountDetails" />
+    <add key="UpdateAccountDetails" value="api/users" />
+    <!-- Default Templates -->
+    <add key="GetTempDetails" value="api/GetDefaultTemplatesList" />
+    <add key="UpdateDefaultTempDetails" value="api/creatingTemplates" />
+    <add key="GetImage" value="api/imageReturning" />
+    <!-- Load GLBalance Tabular -->
+    <add key="glBalanceTabular" value="api/getGlBalancesTabular" />
+    <!--<add key="glBalanceTabular" value="api/getGlBalancesTabularFromLivy" />-->
+    
+    <add key="glTranslatedCurrency" value="api/getTranslatedCurrency" />
+    <add key="getGLBalanceTemplates" value="api/templateListBasedOnReportName/GL Balances Detail Report - Pivot" />
+    <!-- Get GL Balances -->
+    <add key="glBalancesSourceData" value="api/getGlBalances" />
+    <add key="getGLBalanceTabularTemplates" value="api/templateListBasedOnReportName/GL Balances Summary Report" />
+    <!-- Get Revaluation -->
+    <add key="getRevaluationSourceData" value="api/getGlRevaluation" />
+    <add key="getRevaluationTemplates" value="api/templateListBasedOnReportName/GL Revaluation Report" />
+    <!-- AP Invoice Register -->
+    
+    <add key="getOperatingUnits" value="api/getOperatingUnitDetails" />
+    <add key="getLegalEntities" value="api/getLegalEntityDetails" />
+    <add key="getSuppliers" value="api/getSupplierDetails" />
+    <add key="getSupplierSites" value="api/getSupplierSieDetails" />
+    <!--  <add key="getApInvRegReportTemplate" value="api/listOfTemplateNames/AP Invoice Register Report"/>    -->
+    <add key="getApInvRegReportTemplate" value="api/templateListBasedOnReportName/AP Invoice Register Report" />
+    <add key="getApInvRegReportResult" value="api/getApInvoiceRegisterDetails" />
+    <add key="getColumnPrompts" value="api/getColumnPromptsforReport" />
+    <!-- Conversion Types USD -->
+    <add key="getConversionTypesUSD" value="api/getConversionTypesUSD" />
+    <!-- FSG Template Based on ID -->
+    <add key="getFSGTemplate" value="api/getFSGTemplate" />
+    <!-- All FSG Templates -->
+    <add key="getAllFSGTemplates" value="api/GetFsgTemplates" />
+    <!-- FSG Balances Data-->
+    <add key="getFSGBalances" value="/api/getGlBalancesFSG" />
+    <add key="createFSGTemplate" value="api/creatingFsgReport" />
+    <!-- SOX Complaince Reports Master Data-->
+    <add key="AppRespMasterData" value="api/getAppRespMasterData" />
+    <add key="FndUserMasterData" value="api/getFndUserMasterData" />
+    <add key="FunctionsMasterData" value="api/getFunctionsMasterData" />
+    <add key="ProfOptionMasterData" value="api/getProfOptionMasterData" />
+    <add key="RespProfileOptions" value="api/getProfOptionMasterData2" />
+    <!-- SOX Complaince Report Data-->
+    <add key="UserResponsibility" value="api/getUserResponsibility" />
+    <add key="FunAccess2User" value="api/getFunctionAccessToUser" />
+    <add key="GLCreatePostUsers" value="api/getGlJournalCreatePost" />
+    <add key="ResponsibilityProfileOptions" value="api/getResponsibilityProfileOptions" />
+    <add key="ProfileOptions" value="api/getProfileOption" />
+    <!-- SOX Complaince Reports Templates Data-->
+    <add key="getGLCreatePostReportTemplates" value="api/templateListBasedOnReportName/Gl Journal Create Post Report" />
+    <add key="getFunAccessUsrTemplates" value="api/templateListBasedOnReportName/Function Access To User Report" />
+    <add key="getUsrRespTemplates" value="api/templateListBasedOnReportName/User Responsibility Report" />
+    <add key="Siva" value="api/getProfileOptionsPivot" />
+    <!-- User Role Management -->
+    <add key="securityGroupCreation" value="api/createFunctionalities" />
+    <add key="userCreation" value="api/createOrUpdateUser" />
+    <add key="roleCreation" value="api/userRoleCreationOrUpdation" />
+    <add key="userRoleAssignment" value="api/userRoleAssignmentCreatoinUpdation" />
+    <add key="roleFunctionsAssignment" value="api/roleFunctionCreationUpdation" />
+    <add key="getUsers" value="api/getUsers" />
+    <add key="getRoles" value="api/getRoles" />
+    <add key="getFunctionalities" value="api/getFunctionalities" />
+    <add key="getUserRolesByUserId" value="api/getRoleIdsWithUserId" />
+    <add key="getRoleUsersByRoleId" value="api/getUserIdsWithRoleId" />
+    <add key="getRoleFunctionalitiesByRoleId" value="api/getFunctionIdsWithRoleId" />
+    <add key="getFunctionalityRolesByFunctionalityId" value="api/getRoleIdsWithFunctionId" />
+    <add key="getUsersByUserId" value="api/getUser" />
+    <add key="getRolesByRoleId" value="api/getRole" />
+    <add key="getFunctionalitiesByFunctionalityId" value="api/getSecuredGroup" />
+    <add key="createUserManagement" value="api/createSecuredAttributes" />
+    <add key="getUsrMgmntByUserId" value="api/getSecuredAttributes" />
+    <add key="ClientSettingsProvider.ServiceUri" value="" />
+    <add key="ClientSettingsProvider.ConnectionStringName" value="DefaultConnection1" />
+  </appSettings>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.6.1" />
+  </startup>
+  <connectionStrings>
+    <add name="DefaultConnection" connectionString="Data Source = |SQL/CE|" />
+    <add name="DefaultConnection1" connectionString="Data Source = |SQL/CE|" />
+  </connectionStrings>
+  <system.web>
+    <membership defaultProvider="ClientAuthenticationMembershipProvider">
+      <providers>
+        <add name="ClientAuthenticationMembershipProvider" type="System.Web.ClientServices.Providers.ClientWindowsAuthenticationMembershipProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" connectionStringName="DefaultConnection1" credentialsProvider="" />
+      </providers>
+    </membership>
+    <roleManager defaultProvider="ClientRoleProvider" enabled="true">
+      <providers>
+        <add name="ClientRoleProvider" type="System.Web.ClientServices.Providers.ClientRoleProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" cacheTimeout="86400" connectionStringName="DefaultConnection1" />
+      </providers>
+    </roleManager>
+  </system.web>
+</configuration>
