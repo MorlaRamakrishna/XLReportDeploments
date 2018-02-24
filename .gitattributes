@@ -1,6 +1,7 @@
 # Auto detect text files and perform LF normalization
-*.manifest binary
-*.application binary
-*.deploy binary
+Application Files/XL_Report_*/*.manifest binary
+Application Files/XL_Report_*/*.application binary
+Application Files/XL_Report_*/*.deploy binary
+Application Files/XL_Report_*/*.vsto binary
 *.vsto binary
 * text=auto
